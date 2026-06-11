@@ -8,7 +8,9 @@ async function startServer() {
     await sequelize.sync({ alter: true });
     console.log('Modelos sincronizados.');
 
-    app.listen(PORT, () => {
+    console.log('PORT recebida:', PORT);
+
+    app.listen(PORT, '0.0.0.0', () => {
       console.log(`Servidor rodando na porta ${PORT}`);
     });
   } catch (error) {
