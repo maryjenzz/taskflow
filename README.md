@@ -294,30 +294,6 @@ A aplicação foi projetada para funcionar em:
 
 ---
 
-## 📸 Screenshots
-
-### Login
-
-```text
-<img width="592" height="676" alt="image" src="https://github.com/user-attachments/assets/5a888203-314c-4073-bb76-eb795e0e6e85" />
-```
-
-### Dashboard
-
-```text
-<img width="1920" height="835" alt="image" src="https://github.com/user-attachments/assets/5d874beb-1374-4ada-81df-2264fd6c535e" />
-
-```
-
-### Estatísticas
-
-```text
-<img width="492" height="410" alt="image" src="https://github.com/user-attachments/assets/14bdd97c-2c0b-43cc-9ed1-6c79d928e9ea" />
-
-```
-
----
-
 ## 👩‍💻 Desenvolvido por
 
 **Mylena Jenzura**
