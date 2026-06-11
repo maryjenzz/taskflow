@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vintage-grape: #4a4063;
+  --thistle: #bfacc8;
+  --pale-slate: #c8c6d7;
+  --velvet-orchid: #783f8e;
+  --indigo: #4f1271;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--pale-slate);
+  color: #1e1b29;
+}
