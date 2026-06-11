@@ -7,6 +7,11 @@ const PORT = process.env.PORT || 5000;
 async function startServer() {
   try {
     console.log('Conectando ao banco...');
+    console.log('HOST=', JSON.stringify(process.env.DB_HOST));
+    console.log('PORT=', JSON.stringify(process.env.DB_PORT));
+    console.log('NAME=', JSON.stringify(process.env.DB_NAME));
+    console.log('USER=', JSON.stringify(process.env.DB_USER));
+    console.log('PASS=', JSON.stringify(process.env.DB_PASS));
 
     await sequelize.authenticate();
 
